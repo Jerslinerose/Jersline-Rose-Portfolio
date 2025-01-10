@@ -26,7 +26,7 @@ const About = () => {
             I am Jersline Rose J, a passionate final-year Computer Science and Engineering undergraduate with a CGPA of 8.75/10 from Adhiyamaan College of Engineering, Hosur. <br />
             <br />
             With a strong foundation in programming, web development, and machine learning, I enjoy creating innovative solutions to real-world problems. I’m driven by a passion for creating innovative, visually stunning, and highly functional digital experiences. <br />
-            With a strong focus on full-stack development and AI, I aim to solve real-world problems with solutions that leave a lasting impact. <br />
+           I aim to solve real-world problems with solutions that leave a lasting impact. <br />
             <br />
             I have hands-on experience in full stack development, having worked on projects such as a Meeting Room Reservation System and the Flavour Fiesta Recipe Web Application. My projects demonstrate my ability to integrate powerful backend solutions with sleek, user-friendly frontend designs. <br />
             <br />
