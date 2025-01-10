@@ -38,7 +38,7 @@ const Hero = () => {
               </a>
             </button>
             {/* LinkedIn Button */}
-            <button className="bg-blue-600 text-white px-3 py-2 w-max rounded-md">
+            <button className="bg-blue-600 text-white px-3 py-2 w-max rounded-md mb-4">
               <a
                 href="https://www.linkedin.com/in/jersline-rose-j/"
                 target="_blank"
@@ -46,6 +46,22 @@ const Hero = () => {
               >
                 LinkedIn
               </a>
+            </button>
+            <button className="bg-black text-white px-3 py-2 w-max rounded-md mb-4">
+              <a
+                href="https://github.com/Jerslinerose"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </button>
+
+            {/* Email Button */}
+            <button className="bg-black text-white px-3 py-2 w-max rounded-md">
+            <a href="jerslinerose@gmail.com" className="text-white">
+              jerslinerose@gmail.com<br></br>9487123781
+  </a>
             </button>
           </div>
           <div className="md:w-1/2 relative flex justify-center items-end">

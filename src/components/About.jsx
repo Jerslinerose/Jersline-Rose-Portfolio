@@ -42,6 +42,8 @@ const About = () => {
                         {/* Skills Section (Professional and Soft Skills) */}
                        
                             {/* Professional Skills Section */}
+                            <div className="flex flex-col lg:flex-row gap-6 w-full justify-center items-center">
+
                             <div className='border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 w-1/2'>
                                 <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">Professional Skills</h3>
                                 <div className='flex flex-col items-center gap-6'>
@@ -144,7 +146,7 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-
+                            </div>
                             {/* Soft Skills Section */}
                             <div className='border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 w-1/2'>
                                 <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">Soft Skills</h3>
