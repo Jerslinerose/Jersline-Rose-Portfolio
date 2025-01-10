@@ -74,7 +74,6 @@ const Hero = () => {
     transformOrigin: 'center', // Ensures it rotates around its center
   }}
 />
-
       </div>
     </section>
   );

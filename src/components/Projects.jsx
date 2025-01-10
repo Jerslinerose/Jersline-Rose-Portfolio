@@ -11,22 +11,20 @@ const Projects = () => {
       title: 'Portfolio',
       desc: 'Developed a stunning Portfolio for myself which is dynamic and responsive by using React.Js, Tailwind Css, Particle Js and Canva for Graphics.',
       image: Portfolio,
-      live: "https://rohitsingh93300-portfolio.vercel.app/",
-      github: "https://github.com/rohitsingh93300/portfolio"
+      live: "https://jerslineroseportfolio.netlify.app/",
+      github: "https://github.com/Jerslinerose/Jersline-Rose-Portfolio"
     },
     {
       title: 'Flavour Fiesta',
       desc: 'Developed a recipe web application with an AI chatbot using HTML, CSS and JavaScript. The chatbot provides personalized recipe recommendations and interactive user assistance.',
       image: SpicyBites,
-      live: "https://spicybites.netlify.app/",
-      github: "https://github.com/rohitsingh93300/YtSpicyBites"
+      
     },
     {
       title: 'To Do List Application',
       desc: 'Implemented a task management application using HTML, CSS, JAVASCRIPT to add, update, delete, and mark tasks as completed for improved productivity.',
       image: Youtube,
-      live: "https://youtube-clone-93300.netlify.app/",
-      github: "https://github.com/rohitsingh93300/YouTube-clone"
+      
     },
   ];
 

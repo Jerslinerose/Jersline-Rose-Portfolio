@@ -16,6 +16,7 @@ const Navbar = () => {
                 <a href="#projects" className='transition-colors hover:text-foreground/80 text-foreground/60'>Projects</a>
                 <a href="#testimonials" className='transition-colors hover:text-foreground/80 text-foreground/60'>Technical Accomplishments</a>
                 <a href="#contact" className='transition-colors hover:text-foreground/80 text-foreground/60'>Contact</a>
+                <a href="#linkedin" className='transition-colors hover:text-foreground/80 text-foreground/60'>LinkedIn</a>
             </nav>
         </div>
         <button className='inline-flex items-center justify-center rounded-md md:hidden' onClick={()=>setmMobileMenuOpen(!mobileMenuOpen)}>
@@ -34,6 +35,11 @@ const Navbar = () => {
                 <a href="#projects" className='block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900'>Project</a>
                 <a href="#testimonials" className='block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900'>Technical Accomplishments</a>
                 <a href="#contact" className='block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900'>Contact</a>
+                
+                <a href="https://www.linkedin.com/in/jersline-rose-j/" target="_blank" className="text-gray-700 hover:text-gray-900">LinkedIn</a>
+
+                
+
             </div>
         </div>
       )}
