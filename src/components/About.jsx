@@ -208,8 +208,7 @@ const About = () => {
                         <h1 className='text-center text-2xl lg:text-4xl font-bold'>MY JOURNEY...</h1>   
                         </div>
                               
-                        <br></br>
-                        <br></br>
+                        
                         
                
    
@@ -255,7 +254,7 @@ const About = () => {
     </div>
 </div>
 
-<br></br>
+
 <div className="flex items-center justify-center min-h-screen bg-gray-50">
     <div className="border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 w-[600px] h-[500px]">
         <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">Experience</h3>
