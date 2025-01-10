@@ -40,7 +40,7 @@ const About = () => {
                         <br />
                         <h1 className='text-center text-2xl lg:text-4xl font-bold'>MY SKILLS...</h1>
                         {/* Skills Section (Professional and Soft Skills) */}
-                        <div className='flex justify-between gap-8 w-full'>
+                       
                             {/* Professional Skills Section */}
                             <div className='border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 w-1/2'>
                                 <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">Professional Skills</h3>
@@ -199,9 +199,17 @@ const About = () => {
                             
                         </div>
                         <br></br>
-                        <h1 className='text-center text-2xl lg:text-4xl font-bold'>MY JOURNEY...</h1>
-                        <div className="flex gap-8">
+                        <br></br>
+                        <div>
+                        <h1 className='text-center text-2xl lg:text-4xl font-bold'>MY JOURNEY...</h1>   
+                        </div>
+                              
+                        <br></br>
+                        <br></br>
+                        
+               
    
+                        <div className="flex items-center justify-center min-h-screen">
     <div className="border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 w-[600px] h-[600px]">
         <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">Education</h3>
         <div className="flex flex-row gap-8 items-start">
@@ -241,9 +249,11 @@ const About = () => {
             </div>
         </div>
     </div>
+</div>
 
-    
-    <div className="border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 w-[600px] h-[600px]">
+<br></br>
+<div className="flex items-center justify-center min-h-screen bg-gray-50">
+    <div className="border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 w-[600px] h-[500px]">
         <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">Experience</h3>
         
         <div className="flex flex-row gap-8 items-start">
@@ -274,13 +284,12 @@ const About = () => {
         </div>
     </div>
 </div>
-
+</div>
 
 
                     </div>
                 </div>
-            </div>
-        </div>
+            
     );
 }
 
