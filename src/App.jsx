@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from 'c:/Users/pjose/OneDrive/Desktop/jerslinerose/portfolio/my-project/src/components/hero'
+import Navbar from './components/navbar'
+import Hero from './components/hero'
 import ParticleBackground from './components/Particle'
 import About from './components/About'
 
@@ -13,8 +13,8 @@ const App = () => {
   return (
     <>
       <ParticleBackground />
-      <Navbar />
-      <Hero />
+      <Navbar/>
+      <Hero/>
       <About/>
       
       <Projects/>
