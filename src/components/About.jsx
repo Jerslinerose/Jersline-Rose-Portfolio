@@ -15,7 +15,7 @@ import NextJs from '../assets/NextJs.png';
 const About = () => {
     return (
         <div className='relative' id='about'>
-            <div className='bg-gray-100 py-12'>
+          <div className="py-12" style={{ background: "linear-gradient()" }}>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className='mt-10 flex justify-center items-center flex-col gap-12'>
                         {/* About Me Section */}
