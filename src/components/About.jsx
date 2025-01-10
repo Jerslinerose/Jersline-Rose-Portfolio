@@ -19,23 +19,25 @@ const About = () => {
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                     <div className='mt-10 flex justify-center items-center flex-col gap-12'>
                         {/* About Me Section */}
-                        <div className="border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300">
-                            <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">About Me</h3>
-                            <p className="mt-4 text-lg text-black-700 leading-relaxed font-light font-sans tracking-wide"><b>
-                                I am Jersline Rose J, a passionate final-year Computer Science and Engineering undergraduate with a CGPA of 8.75/10 from Adhiyamaan College of Engineering, Hosur. <br />
-                                <br />
-                                With a strong foundation in programming, web development, and machine learning, I enjoy creating innovative solutions to real-world problems. I’m driven by a passion for creating innovative, visually stunning, and highly functional digital experiences. <br />
-                                With a strong focus on full-stack development and AI, I aim to solve real-world problems with solutions that leave a lasting impact. <br />
-                                <br />
-                                I have hands-on experience in full stack development, having worked on projects such as a Meeting Room Reservation System and the Flavour Fiesta Recipe Web Application. My projects demonstrate my ability to integrate powerful backend solutions with sleek, user-friendly frontend designs. <br />
-                                <br />
-                                I am skilled in Java, HTML, CSS, JavaScript, MySQL, and React.js, among others, and thrive in collaborative environments where I can apply my skills effectively. <br />
-                                Beyond academics, I have participated in hackathons, presented at conferences, and earned certifications in Full Stack Development, Artificial Intelligence, and Digital Software Engineering. <br />
-                                <br />
-                                I am currently seeking opportunities to contribute to impactful projects and grow as a developer.
-                            </b>
-                            </p>
-                        </div>
+                        <div className="border border-red-200 rounded-lg md:p-7 py-7 flex flex-col gap-8 items-center shadow-lg shadow-red-300 bg-light bg-gray-200">
+    <h3 className="text-2xl font-bold text-red-600 font-sans tracking-wide uppercase">About Me</h3>
+    <p className="mt-4 text-lg text-black leading-relaxed font-light font-sans tracking-wide">
+        <b>
+            I am Jersline Rose J, a passionate final-year Computer Science and Engineering undergraduate with a CGPA of 8.75/10 from Adhiyamaan College of Engineering, Hosur. <br />
+            <br />
+            With a strong foundation in programming, web development, and machine learning, I enjoy creating innovative solutions to real-world problems. I’m driven by a passion for creating innovative, visually stunning, and highly functional digital experiences. <br />
+            With a strong focus on full-stack development and AI, I aim to solve real-world problems with solutions that leave a lasting impact. <br />
+            <br />
+            I have hands-on experience in full stack development, having worked on projects such as a Meeting Room Reservation System and the Flavour Fiesta Recipe Web Application. My projects demonstrate my ability to integrate powerful backend solutions with sleek, user-friendly frontend designs. <br />
+            <br />
+            I am skilled in Java, HTML, CSS, JavaScript, MySQL, and React.js, among others, and thrive in collaborative environments where I can apply my skills effectively. <br />
+            Beyond academics, I have participated in hackathons, presented at conferences, and earned certifications in Full Stack Development, Artificial Intelligence, and Digital Software Engineering. <br />
+            <br />
+            I am currently seeking opportunities to contribute to impactful projects and grow as a developer.
+        </b>
+    </p>
+</div>
+
 
                         <br />
                         <h1 className='text-center text-2xl lg:text-4xl font-bold'>MY SKILLS...</h1>
