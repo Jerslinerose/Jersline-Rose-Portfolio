@@ -2,10 +2,6 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 
 import hero from '../assets/Hero.png';
-import facebook from '../assets/facebook.png';
-import twitter from '../assets/twitter.png';
-import instagram from '../assets/instagram.png';
-import linkedin from '../assets/linkedin.png';
 import reactLogo from '../assets/React.png';
 import reduxLogo from '../assets/Redux.png';
 import tailwind from '../assets/Tailwind Css.png';
@@ -31,9 +27,9 @@ const Hero = () => {
               />
             </div>
             <br />
-            <button className="bg-black text-white px-3 py-2 w-max rounded-md">
+            <button className="bg-black text-white px-3 py-2 w-max rounded-md mb-4">
               <a
-                href="drive.google.com/file/d/19onk6L9W8BmBlh2Jj4OE3yXANzwMu5Jj/view?usp=drivesdkhttps://drive.google.com/file/d/1LBMHWpTgTGkvCTcHYiU8JQRCHb5-SRl8/view?usp=sharing"
+                href="https://drive.google.com/file/d/19onk6L9W8BmBlh2Jj4OE3yXANzwMu5Jj/view?usp=drivesdk"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
@@ -41,39 +37,49 @@ const Hero = () => {
                 Download CV
               </a>
             </button>
+            {/* LinkedIn Button */}
+            <button className="bg-blue-600 text-white px-3 py-2 w-max rounded-md">
+              <a
+                href="https://www.linkedin.com/in/jersline-rose-j/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </button>
           </div>
           <div className="md:w-1/2 relative flex justify-center items-end">
             <img src={hero} alt="" className="lg:h-[60vh] h-72" />
             <img
               src={reactLogo}
-              alt=""
+              alt="React Logo"
               className="absolute w-10 top-36 left-0 rounded-full md:hidden"
             />
             <img
               src={reduxLogo}
-              alt=""
+              alt="Redux Logo"
               className="absolute w-10 top-0 right-5 md:hidden"
             />
             <img
               src={tailwind}
-              alt=""
+              alt="Tailwind Logo"
               className="absolute w-10 rounded-full right-0 bottom-36 md:hidden"
             />
           </div>
         </div>
       </div>
-     
+
       {/* Rotating Image */}
       <div className="absolute top-12 right-7">
-      <img
-  src={roll}
-  alt="Rotating Icon"
-  className="w-12 sm:w-16 md:w-20 lg:w-24 animate-spin"
-  style={{
-    animationDuration: '4s',
-    transformOrigin: 'center', // Ensures it rotates around its center
-  }}
-/>
+        <img
+          src={roll}
+          alt="Rotating Icon"
+          className="w-12 sm:w-16 md:w-20 lg:w-24 animate-spin"
+          style={{
+            animationDuration: '4s',
+            transformOrigin: 'center', // Ensures it rotates around its center
+          }}
+        />
       </div>
     </section>
   );
