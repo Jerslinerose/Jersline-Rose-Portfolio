@@ -57,12 +57,7 @@ const Hero = () => {
               </a>
             </button>
 
-            {/* Email Button */}
-            <button className="bg-red-500 text-white px-3 py-2 w-max rounded-md">
-            <a href="jerslinerose@gmail.com" className="text-white">
-              jerslinerose@gmail.com<br></br>9487123781
-  </a>
-            </button>
+           
           </div>
           <div className="md:w-1/2 relative flex justify-center items-end">
             <img src={hero} alt="" className="lg:h-[60vh] h-72" />
